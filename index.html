@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Praactic 2</title>
+    <title> Practic 2 </title>
 </head>
 
 <body style="background-color: black;" text="white">
@@ -23,56 +23,55 @@
     </ol>
     </p>
 
-    <!--This is table uses to define table-->
-
+    <!--<table> Tag uses to define table-->
     <table>
        
-        <!--This is a caption tag to use to add caption into your Table-->
-        <caption>sutudent Details</caption>
-        
-     <tr>
-         <thead>  
-            <th>
-                this is a table heading
-            </th></thead>
-        </tr>
-        <tr><tbody>
-            <td>
-             this is a table data
-            </td></tbody>
-        </tr>
+    <!--<caption> tag use to add caption into your Table-->
+    <caption>sutudent Details</caption>
+    <!--tr used to display table row-->
+    <tr>
+    <thead>  
+    <!--<th> use for table heddings-->
+    <th>
+    this is a table heading
+    </th></thead>
+    </tr>
+    <tr><tbody>
+    <!--<td> use for table data-->
+    <td>
+    this is a table data
+    </td>
+    <!--<tbody> used to wrap table data-->
+    </tbody>
+    </tr>
     </table>
 
-    <!--Hear i Colspan for columns-->
+    <!--<colspan> use to mearge columns-->
+     <table border="1">
+    <tr>
+    <td colspan="3"> Mearged Columns</td>
+    </tr>
+    <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+    </tr>
+    </table>
 
+    
+    <!--<rowspan> use to mearge row-->
     <table border="1">
-        <tr>
-            <td colspan="3"> Mearged Columns</td>
-        </tr>
-        <tr>
-            <td>Column 1</td>
-            <td>Column 2</td>
-        </tr>
+    <tr>
+    <td>
+    Row 1, Column1
+    </td>
+    <td rowspan="2">
+    Merged Rows
+    </td>
+    </tr>
+    <tr>
+    <td>Row2, Column 1</td>
+    </tr>
     </table>
-
-    <!--Hear i Rowspan for rows-->
-
-    <table border="1">
-        <tr>
-            <td>
-                Row 1, Column1
-            </td>
-            <td rowspan="2">
-                Merged Rows
-            </td>
-        </tr>
-        <tr>
-            <td>Row2, Column 1</td>
-        </tr>
-
-    </table>
-
 
 </body>
-
 </html>
